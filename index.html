@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura Challenge</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section class="title">
+            <h1 id="main-title">Encriptador</h1>
+            <h2 id="main-subtitle">ONE x Alura</h2>
+        </section>
+        <section class="toggle">
+            <button id="change_task" onclick="toggleFunction();">
+                <img src="images/close.png" alt="" id="image">
+            </button>
+        </section>
+        <section class="input">
+            <textarea class="input-texto" id="texto" placeholder="Ingrese texto"></textarea>
+        </section>
+        <section class="process">
+            <input type="button" value="Encriptar" id="program-process" >
+        </section>
+        <section class="popup" id="popup">
+            <section class="overlay"></section>
+            <section class="popup-content">
+                <h3 class="popup-title">Texto Convertido</h3>
+                <p class="popup-finalText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem doloremque eum consectetur voluptatum dolore iusto, expedita, necessitatibus eos nostrum accusantium distinctio placeat quaerat cum nisi voluptates iste hic numquam excepturi?</p>
+                <section class="controls">
+                    <button class="close-btn">Close</button>
+                    <button class="copy-btn">Copy</button>
+                </section>
+            </section>
+        </section>
+    </main>
+    <script src="app.js" defer></script>
+</body>
+</html>
